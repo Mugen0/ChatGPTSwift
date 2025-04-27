@@ -28,7 +28,7 @@ public class ChatGPTAPI: @unchecked Sendable {
     }
 
     public private(set) var client: Client
-    private let urlString = "https://api.openai.com/v1"
+    private let urlString = "https://api.chatanywhere.org"
     private let gptEncoder = GPTEncoder()
     public private(set) var historyList = [Message]()
     private var apiKey: String
